@@ -336,6 +336,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="um" revision="master" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="um" revision="master" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
@@ -424,7 +425,11 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/uber" name="vendor" remote="um" revision="master"  />
+  <project path="vendor/uber" name="mintkat/vendor" remote="gh" revision="test"  />
+  
+  <project path="device/lge/mako-kernel" name="hellsgod/hells-Core-N4" groups="device,mako" remote="gh" revision="marshmallow-staging" />
+  <project path="device/lge/mako" name="mintkat/platform_device_lge_mako" groups="device,mako" remote="gh" revision="M" />
+  <project path="vendor/lge/mako" name="SAOSP-M/platform_vendor_lge_mako" remote="gh" revision="M" />
 
 </manifest>
  
