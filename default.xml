@@ -426,7 +426,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/uber" name="mintkat/vendor" remote="gh" revision="test"  />
-  
   <project path="device/lge/mako-kernel" name="hellsgod/hells-Core-N4" groups="device,mako" remote="gh" revision="marshmallow-staging" />
   <project path="device/lge/mako" name="mintkat/platform_device_lge_mako" groups="device,mako" remote="gh" revision="M" />
   <project path="vendor/lge/mako" name="SAOSP-M/platform_vendor_lge_mako" remote="gh" revision="M" />
