@@ -13,7 +13,7 @@
            remote="aosp"
            sync-j="8" />
 
-<project path="build" name="build" remote="um" revision="master" >
+<project path="build" name="mintkat/build" remote="gh" revision="mintkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -28,6 +28,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/lge/mako" name="ScrewdAOSP/device_lge_mako" remote="gh" revision="m" />
+  <project path="kernel/lge/mako" name="CallMeAldy/kernel_lge_mako" remote="gh" revision="mm-6.0" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -423,7 +424,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/uber" name="vendor" remote="um" revision="master"  />
+  <project path="vendor/uber" name="mintkat/vendor" remote="gh" revision="mintkat"  />
   <project path="vendor/lge" name="ScrewdAOSP/proprietary_vendor_lge" remote="gh" revision="m"  />
 
 </manifest>
