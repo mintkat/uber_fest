@@ -396,7 +396,7 @@
   <project path="packages/services/Telephony" name="UBERMALLOW/packages_services_Telephony" remote="github" revision="master" />
   <project path="system/core" name="MallowRom/system_core" remote="github" revision="m6.0" />
   <project path="system/extras" name="UBERMALLOW/system_extras" remote="github" revision="master" />
-  <project path="vendor/uber" name="mintkat/vendor" remote="gihub" revision="mallow"  />
+  <project path="vendor/uber" name="mintkat/vendor" remote="github" revision="mallow"  />
 
 </manifest>
 
