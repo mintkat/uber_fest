@@ -21,14 +21,14 @@
   <project path="bionic" name="bionic" remote="um" revision="master" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="dalvik" remote="um" revision="hammer" />
+  <project path="dalvik" name="dalvik" remote="um" revision="master" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/lge/mako" name="ScrewdAOSP/device_lge_mako" remote="gh" revision="m" />
-  <project path="kernel/lge/mako" name="CallMeAldy/kernel_lge_mako" remote="gh" revision="mm-6.0" />
+  <project path="kernel/lge/mako" name="ScrewdAOSP/hells-Core-N4" remote="gh" revision="m" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
