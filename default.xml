@@ -16,6 +16,9 @@
   <remote  name="bb"
            fetch="https://bitbucket.org" />
 
+  <remote name="screwd"
+           fetch="https://github.com/ScrewdAOSP" />
+
   <project path="build" name="BenzoRom/build" groups="pdk" remote="github" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -294,7 +297,7 @@
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="m" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="m" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" /> 
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
