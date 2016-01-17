@@ -29,7 +29,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="kernel/lge/mako" name="mintkat/MintMallow_Kernel" remote="gh" revision="development" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -408,11 +407,12 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
  <!--Device-->
- <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="gh" revision="master" />
+ <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="gh" revision="mintkat" />
+ <project path="kernel/lge/mako" name="mintkat/MintMallow_Kernel" remote="gh" revision="taurus2" />
 
  <!--Vendor-->
   <project path="vendor/lge" name="vendor_lge_minimal" remote="um" revision="master" />
-  <project path="vendor/mintkat" name="mintkat/vendor" remote="gh" revision="mintkat"  />
+  <project path="vendor/uber" name="mintkat/vendor" remote="gh" revision="mintkat"  />
 
  <!--ToolChains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="TeamTwisted/arm-eabi-5.3-cortex-a15" remote="bb" revision="master" />
