@@ -15,7 +15,7 @@
            sync-f="true" 
            sync-j="6" />
 
-<project path="build" name="build" remote="um" revision="master" >
+<project path="build" name="mintkat/build" remote="gh" revision="mintkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
