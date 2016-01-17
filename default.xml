@@ -407,6 +407,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+ <!--Device-->
+ <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="gh" revision="master" />
+
  <!--Vendor-->
   <project path="vendor/lge" name="vendor_lge_minimal" remote="um" revision="master" />
   <project path="vendor/mintkat" name="mintkat/vendor" remote="gh" revision="mintkat"  />
