@@ -413,8 +413,8 @@
 
  <!--ToolChains-->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" />
-  <project path="prebuilts/clang/linux-x86/host/3.7" name="xanaxdroid/dragontc-3.7" groups="pdk,linux" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/linux-x86/host/3.7" name="xanaxdroid/dragontc-3.7" groups="pdk,linux" remote="bb" revision="dragontc" clone-depth="1" />
+  <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="TeamTwisted/arm-eabi-5.3-cortex-a15" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="TeamTwisted/arm-linux-androideabi-5.3-cortex-a15" remote="bb" revision="master" />
 
