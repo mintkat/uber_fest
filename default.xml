@@ -391,7 +391,7 @@
   <project path="external/nano" name="BenzoRom/external_nano" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/proguard" name="BenzoRom/external_proguard" groups="pdk" remote="gh" revision="marshmallow" />
-  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="m6.0" />
+  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="gh" revision="m6.0" />
   <project path="external/skia" name="external_skia" remote="mk" revision="mintkat" />
   <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="gh" revision="m6.0" />
   <project path="libcore" name="libcore" remote="mk" revision="mintkat" />
