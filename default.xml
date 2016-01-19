@@ -8,7 +8,7 @@
            remote="aosp"
            sync-c="true" 
            sync-f="true" 
-           sync-j="6" />
+           sync-j="4" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -16,10 +16,7 @@
   <remote  name="bb"
            fetch="https://bitbucket.org" />
 
-  <remote name="screwd"
-           fetch="https://github.com/ScrewdAOSP" />
-
-  <project path="build" name="BenzoRom/build" groups="pdk" remote="github" revision="marshmallow" >
+  <project path="build" name="mintkat/build" groups="pdk" remote="github" revision="mintkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -28,6 +25,9 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="BenzoRom/dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="developers/build" name="platform/developers/build" />
+  <project path="developers/demos" name="platform/developers/demos" />
+  <project path="developers/docs" name="platform/developers/docs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -163,7 +163,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/llvm" name="BenzoRom/external_llvm" groups="pdk" remote="github" revision="marshmallow" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -282,25 +282,36 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
+  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
+  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="m" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" /> 
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
@@ -324,7 +335,7 @@
   <project path="packages/apps/DeskClock" name="BenzoRom/packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Dialer" name="BenzoRom/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="BenzoRom/packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
@@ -388,28 +399,25 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
-  <project path="prebuilts/clang/linux-x86/host/3.7" name="xanaxdroid/dragontc-3.7" groups="pdk,linux" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="xanaxdroid/arm-eabi-5.3" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="xanaxdroid/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="xanaxdroid/arm-linux-androideabi-5.3" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
-  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
-  <project path="prebuilts/ndk" name="BenzoRom/prebuilts_ndk" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/clang/linux-x86/host/3.7" name="xanaxdroid/dragontc-3.7" groups="pdk,linux" remote="bb" revision="dragontc" clone-depth="1" />
+  <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" clone-depth="1" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" clone-depth="1" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="xanaxdroid/arm-eabi-5.2" groups="pdk,linux,arm" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="xanaxdroid/arm-linux-androideabi-5.3" groups="pdk,linux,arm" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/ndk" name="BenzoRom/prebuilts_ndk" groups="pdk" remote="github" revision="marshmallow" clone-depth="1" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="github" revision="marshmallow" />
   <project path="system/core" name="BenzoRom/system_core" groups="pdk" remote="github" revision="marshmallow" />
@@ -434,8 +442,13 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/benzo" name="BenzoRom/vendor_benzo" remote="github" revision="marshmallow" />
-  <project path="device/lge/mako" name="ScrewdAOSP/device_lge_mako" remote="github" revision="m" />
+ <!--Device-->
+  <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="github" revision="mintkat" />
+  <project path="kernel/lge/mako" name="mintkat/MintMallow_Kernel" remote="github" revision="taurus2" />
+
+ <!--Vendor-->
+  <project path="vendor/lge" name="UBERMALLOW/vendor_lge_minimal" remote="github" revision="master" />
+  <project path="vendor/uber" name="mintkat/vendor" remote="github" revision="mintkat"  />
 
 </manifest>
 
