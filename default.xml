@@ -227,7 +227,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="um" revision="master"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -387,6 +386,7 @@
   <project path="external/jemalloc" name="TeamTwisted/external_jemalloc" remote="gh" revision="m6.0" />
   <project path="external/jpeg" name="BenzoRom/external_jpeg" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/libpng" name="BenzoRom/external_libpng" groups="pdk" remote="gh" revision="marshmallow" />
+  <project path="external/libncurses" name="BenzoRom/external_libncurses" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/llvm" name="BenzoRom/external_llvm" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/nano" name="BenzoRom/external_nano" groups="pdk" remote="gh" revision="marshmallow" />
   <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" />
@@ -396,6 +396,7 @@
   <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="gh" revision="m6.0" />
   <project path="libcore" name="libcore" remote="mk" revision="mintkat" />
   <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
+  <project path="frameworks/base" name="frameworks_base" remote="mk" revision="mintkat"  />
   <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="gh" revision="marshmallow" />
   <project path="prebuilts/ndk" name="BenzoRom/prebuilts_ndk" groups="pdk" remote="gh" revision="marshmallow" clone-depth="1" />
   <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
