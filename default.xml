@@ -415,7 +415,7 @@
 
  <!--Vendor-->
   <project path="vendor/lge" name="vendor_lge_minimal" remote="um" revision="master" />
-  <project path="vendor/uber" name="mintkat/vendor" remote="gh" revision="mintkat"  />
+  <project path="vendor/mintmallow" name="mintkat/vendor" remote="gh" revision="mintkat"  />
 
  <!--ToolChains-->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
