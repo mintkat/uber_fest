@@ -401,7 +401,7 @@
  <project path="external/guava" name="external_guava" remote="um" revision="master" />
  <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/proguard" name="external_proguard" remote="um" revision="master" />
- <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="m6.0" /> 
+ <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="gh" revision="m6.0" /> 
  <project path="external/skia" name="external_skia" remote="mk" revision="mintkat" /> 
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="libcore" name="libcore" remote="um" revision="master" />
