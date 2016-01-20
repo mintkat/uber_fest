@@ -151,7 +151,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -185,7 +184,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
@@ -394,14 +392,16 @@
  <project path="art" name="mintkat/art" remote="gh" revision="mintkat" />
  <project path="bionic" name="mintkat/bionic" remote="gh" revision="mintkat" />
  <project path="dalvik" name="BenzoRom/dalvik" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
- <project path="external/busybox" name="busybox" remote="um" revision="master" />
- <project path="external/jpeg" name="external_jpeg" remote="um" revision="master" />
+ <project path="external/busybox" name="BenzoRom/external_busybox" remote="gh" revision="marshmallow" /> 
+ <project path="external/jpeg" name="BenzoRom/external_jpeg" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/flac" name="external_flac" remote="um" revision="master" />
- <project path="external/libpng" name="external_libpng" remote="um" revision="master" />
+ <project path="external/libpng" name="BenzoRom/external_libpng" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="external/llvm" name="BenzoRom/external_llvm" groups="pdk" remote="gh" revision="marshmallow" />  
  <project path="external/iproute2" name="external_iproute2" remote="um" revision="master" />
  <project path="external/guava" name="external_guava" remote="um" revision="master" />
- <project path="external/sepolicy" name="external_sepolicy" remote="um" revision="master" />
+ <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/proguard" name="external_proguard" remote="um" revision="master" />
+ <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="m6.0" /> 
  <project path="external/skia" name="external_skia" remote="mk" revision="mintkat" /> 
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="libcore" name="libcore" remote="um" revision="master" />
