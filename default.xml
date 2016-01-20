@@ -21,11 +21,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="art" remote="um" revision="master" />
-  <project path="bionic" name="bionic" remote="um" revision="master" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="dalvik" remote="um" revision="master" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -407,6 +404,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
  <!--Tracked-->
+ <project path="art" name="mintkat/art" remote="gh" revision="mintkat" />
+ <project path="bionic" name="mintkat/bionic" remote="gh" revision="mintkat" />
+ <project path="dalvik" name="BenzoRom/dalvik" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
 
  <!--Device-->
