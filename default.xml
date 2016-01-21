@@ -225,8 +225,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="um" revision="master"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -281,7 +279,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="um" revision="master" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
@@ -309,12 +306,10 @@
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="um" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_packageinstaller" remote="um" revision="master" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="um" revision="master" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="um" revision="master" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="packages_apps_Tag" remote="um" revision="master" />
@@ -328,7 +323,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="um" revision="master" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="um" revision="master" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="um" revision="master" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="um" revision="master" />
@@ -356,7 +350,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -394,12 +387,19 @@
  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="gh" revision="m6.0" /> 
  <project path="external/skia" name="external_skia" remote="mk" revision="mintkat" /> 
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
- <project path="libcore" name="libcore" remote="um" revision="master" />
+ <project path="libcore" name="BenzoRom/libcore" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="um" revision="master" />
+ <project path="frameworks/av" name="TeamTwisted/frameworks_av" groups="pdk" remote="gh" revision="m6.0" />
+ <project path="frameworks/base" name="frameworks_base" remote="mk" revision="mintkat"  />
  <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="frameworks/rs" name="BenzoRom/frameworks_rs" groups="pdk" remote="gh" revision="marshmallow" />
- <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="gh" revision="marshmallow" /> 
+ <project path="packages/apps/PackageInstaller" name="packages_apps_packageinstaller" remote="mk" revision="mintkat" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="mk" revision="mintkat" />
+ <project path="packages/providers/DownloadProvider" name="BenzoRom/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
+ <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="gh" revision="marshmallow" />
+ <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/core" name="system_core" remote="um" revision="master" />
  <project path="system/extras" name="system_extras" remote="um" revision="master" />
 
