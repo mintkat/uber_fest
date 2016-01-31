@@ -288,7 +288,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="um" revision="master" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="um" revision="master" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="um" revision="master" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="um" revision="master" />
@@ -389,6 +388,7 @@
  <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="frameworks/rs" name="BenzoRom/frameworks_rs" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="packages/apps/ContactsCommon" name="BenzoRom/packages_apps_ContactsCommon" remote="gh" revision="marshmallow" />
  <project path="packages/apps/Dialer" name="BenzoRom/packages_apps_Dialer" remote="gh" revision="marshmallow" />
  <project path="packages/apps/Bluetooth" name="BenzoRom/packages_apps_Bluetooth" remote="gh" revision="marshmallow" />
  <project path="packages/apps/InCallUI" name="BenzoRom/packages_apps_InCallUI" remote="gh" revision="marshmallow" />
@@ -396,7 +396,7 @@
  <project path="packages/apps/PackageInstaller" name="packages_apps_packageinstaller" remote="mk" revision="mintkat" />
  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="mk" revision="mintkat" />
  <project path="packages/providers/DownloadProvider" name="BenzoRom/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
- <project path="packages/services/Telephony" name="BenzoRom/packages_services_Telephony" remote="gh" revision="marshmallow" />
+ <project path="packages/services/Telephony" name="mintkat/packages_services_Telephony" remote="gh" revision="marshmallow" />
  <project path="packages/services/Telecomm" name="BenzoRom/packages_services_Telecomm" remote="gh" revision="marshmallow" />
  <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="gh" revision="marshmallow" />
  <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
