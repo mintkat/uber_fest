@@ -11,7 +11,7 @@
            fetch="https://github.com/mintkat/" />
   <remote name="bb"
            fetch="https://bitbucket.org/" />
-  <default revision="refs/tags/android-6.0.1_r10"
+  <default revision="refs/tags/android-6.0.1_r13"
            remote="aosp"
            sync-c="true" 
            sync-f="true" 
@@ -261,7 +261,6 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -382,6 +381,7 @@
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="libcore" name="libcore" groups="pdk" remote="mk" revision="mintkat" />
  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="BenzoRom/hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="um" revision="master" />
  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="mk" revision="mintkat" />
  <project path="frameworks/base" name="frameworks_base" remote="mk" revision="mintkat"  />
@@ -401,7 +401,7 @@
  <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="gh" revision="marshmallow" />
  <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/core" name="system_core" remote="um" revision="master" />
- <project path="system/extras" name="system_extras" remote="um" revision="master" />
+ <project path="system/extras" name="BenzoRom/system_extras" remote="gh" revision="marshmallow" />
 
  <!--Device-->
  <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="gh" revision="mintkat" />
