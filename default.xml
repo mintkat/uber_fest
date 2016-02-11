@@ -203,7 +203,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -372,6 +371,7 @@
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="external/speex" name="BenzoRom/external_speex" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/vixl" name="BenzoRom/external_vixl" groups="pdk" remote="gh" revision="marshmallow" /> 
+ <project path="external/tinyalsa" name="BenzoRom/external_tinyalsa" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="external/v8" name="BenzoRom/external_v8" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="libcore" name="libcore" groups="pdk" remote="mk" revision="mintkat" />
  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
@@ -383,7 +383,7 @@
  <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="frameworks/rs" name="BenzoRom/frameworks_rs" groups="pdk" remote="gh" revision="marshmallow" />
- <project path="frameworks/wilhelm" name="BenzoRom/frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
+ <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
  <project path="frameworks/opt/cards" name="BenzoRom/frameworks_opt_cards" remote="gh" revision="marshmallow" /> 
  <project path="frameworks/opt/datetimepicker" name="BenzoRom/frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />  
  <project path="packages/apps/ContactsCommon" name="BenzoRom/packages_apps_ContactsCommon" remote="gh" revision="marshmallow" />
