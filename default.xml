@@ -241,7 +241,6 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="um" revision="master" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
@@ -363,7 +362,7 @@
  <project path="external/iproute2" name="external_iproute2" remote="um" revision="master" />
  <project path="external/guava" name="external_guava" remote="um" revision="master" />
  <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" /> 
- <project path="external/proguard" name="external_proguard" remote="um" revision="master" />
+ <project path="external/proguard" name="BenzoRom/external_proguard" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="gh" revision="m6.0" /> 
  <project path="external/skia" name="external_skia" remote="mk" revision="mintkat" /> 
  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="gh" revision="marshmallow" />
@@ -396,6 +395,7 @@
  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="mk" revision="mintkat" />
  <project path="packages/providers/DownloadProvider" name="BenzoRom/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="um" revision="master" /> 
+ <project path="frameworks/opt/timezonepicker" name="BenzoRom/frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="packages/services/OmniJaws" name="BenzoRom/packages_services_OmniJaws" remote="gh" revision="marshmallow" />
  <project path="packages/services/Telephony" name="mintkat/packages_services_Telephony" remote="gh" revision="marshmallow" />
  <project path="packages/services/Telecomm" name="BenzoRom/packages_services_Telecomm" remote="gh" revision="marshmallow" />
