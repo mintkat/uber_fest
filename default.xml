@@ -403,7 +403,7 @@
  <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/core" name="BenzoRom/system_core" remote="gh" revision="marshmallow" />
  <project path="system/extras" name="BenzoRom/system_extras" remote="gh" revision="marshmallow" />
- <project path="system/media" name="BenzoRom/platform_system/media" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="system/media" name="BenzoRom/system_media" remote="gh" revision="marshmallow" />
  <project path="system/vold" name="BenzoRom/system_vold" groups="pdk" remote="gh" revision="marshmallow" /> 
 
  <!--Device-->
