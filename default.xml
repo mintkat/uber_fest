@@ -326,7 +326,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -404,6 +403,7 @@
  <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/core" name="BenzoRom/system_core" remote="gh" revision="marshmallow" />
  <project path="system/extras" name="BenzoRom/system_extras" remote="gh" revision="marshmallow" />
+ <project path="system/media" name="BenzoRom/platform/system/media" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/vold" name="BenzoRom/system_vold" groups="pdk" remote="gh" revision="marshmallow" /> 
 
  <!--Device-->
