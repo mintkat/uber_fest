@@ -374,7 +374,7 @@
  <project path="hardware/ril" name="BenzoRom/hardware_ril" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="mk" revision="mintkat" />
  <project path="frameworks/base" name="frameworks_base" remote="mk" revision="mintkat"  />
- <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="frameworks/native" name="mintkat/frameworks_native" groups="pdk" remote="gh" revision="mintkat" />
  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="frameworks/rs" name="BenzoRom/frameworks_rs" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
@@ -403,7 +403,7 @@
  <project path="system/bt" name="BenzoRom/system_bt" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="system/core" name="BenzoRom/system_core" remote="gh" revision="marshmallow" />
  <project path="system/extras" name="BenzoRom/system_extras" remote="gh" revision="marshmallow" />
- <project path="system/media" name="BenzoRom/system_media" remote="gh" revision="marshmallow" />
+ <project path="system/media" name="platform/system/media" groups="pdk" />
  <project path="system/vold" name="BenzoRom/system_vold" groups="pdk" remote="gh" revision="marshmallow" /> 
 
  <!--Device-->
