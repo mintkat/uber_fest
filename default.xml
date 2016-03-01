@@ -411,7 +411,7 @@
  <project path="kernel/lge/mako" name="mintkat/MintMallow_Kernel" remote="gh" revision="mintkat" />
 
  <!--Vendor-->
-  <project path="vendor/lge" name="vendor_lge_minimal" remote="um" revision="master" />
+  <project path="vendor/lge" name="vendor_lge_minimal" remote="mk" revision="mintkat" />
   <project path="vendor/mintmallow" name="mintkat/vendor" remote="gh" revision="mintkat"  />
 
  <!--ToolChains-->
