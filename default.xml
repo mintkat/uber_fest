@@ -369,12 +369,12 @@
  <project path="external/v8" name="BenzoRom/external_v8" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="libcore" name="libcore" groups="pdk" remote="mk" revision="mintkat" />
  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
- <project path="hardware/libhardware" name="BenzoRom/hardware_libhardware" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="hardware/libhardware" name="mintkat/hardware_libhardware" groups="pdk" remote="gh" revision="mintkat" />
  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="um" revision="master" />
  <project path="hardware/ril" name="BenzoRom/hardware_ril" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="mk" revision="mintkat" />
  <project path="frameworks/base" name="frameworks_base" remote="mk" revision="mintkat"  />
- <project path="frameworks/native" name="mintkat/frameworks_native" groups="pdk" remote="gh" revision="mintkat" />
+ <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="frameworks/rs" name="BenzoRom/frameworks_rs" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
