@@ -361,7 +361,7 @@
  <project path="external/speex" name="BenzoRom/external_speex" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/vixl" name="BenzoRom/external_vixl" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/tinyalsa" name="BenzoRom/external_tinyalsa" groups="pdk" remote="gh" revision="marshmallow" />
- <project path="external/zlib" name="BenzoRom/external_zlib" groups="pdk" remote="github" revision="marshmallow" />
+ <project path="external/zlib" name="BenzoRom/external_zlib" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="external/v8" name="BenzoRom/external_v8" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="libcore" name="libcore" groups="pdk" remote="mk" revision="test" />
  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
