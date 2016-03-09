@@ -11,7 +11,7 @@
            fetch="https://github.com/mintkat/" />
   <remote name="bb"
            fetch="https://bitbucket.org/" />
-  <default revision="refs/tags/android-6.0.1_r13"
+  <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-c="true" 
            sync-f="true" 
@@ -214,7 +214,6 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
@@ -267,9 +266,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/ChromiumSnap" name="packages_apps_ChromiumSnap" remote="um" revision="master" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -280,7 +276,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="um" revision="master" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="um" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
@@ -366,6 +361,7 @@
  <project path="external/speex" name="BenzoRom/external_speex" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/vixl" name="BenzoRom/external_vixl" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/tinyalsa" name="BenzoRom/external_tinyalsa" groups="pdk" remote="gh" revision="marshmallow" />
+ <project path="external/zlib" name="BenzoRom/external_zlib" groups="pdk" remote="github" revision="marshmallow" />
  <project path="external/v8" name="BenzoRom/external_v8" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="libcore" name="libcore" groups="pdk" remote="mk" revision="test" />
  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="gh" revision="marshmallow" />
