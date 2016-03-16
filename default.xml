@@ -91,8 +91,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" />
@@ -334,7 +333,7 @@
 
  <!--Tracked-->
  <project path="art" name="mintkat/art" remote="gh" revision="mintkat" />
- <project path="bionic" name="mintkat/bionic" remote="gh" revision="mintkat" />
+ <project path="bionic" name="mintkat/bionic" remote="gh" revision="testing" />
  <project path="dalvik" name="BenzoRom/dalvik" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
  <project path="development" name="BenzoRom/development" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" /> 
  <project path="external/busybox" name="BenzoRom/external_busybox" remote="gh" revision="marshmallow" /> 
@@ -346,6 +345,7 @@
  <project path="external/libphonenumber" name="BenzoRom/external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" /> 
  <project path="external/llvm" name="BenzoRom/external_llvm" groups="pdk" remote="gh" revision="marshmallow" />  
  <project path="external/iproute2" name="external_iproute2" remote="um" revision="master" />
+ <project path="external/icu" name="BenzoRom/external_icu" groups="pdk" remote="gh" revision="marshmallow" />
  <project path="external/guava" name="external_guava" remote="um" revision="master" />
  <project path="external/pdfium" name="BenzoRom/external_pdfium" groups="pdk" remote="gh" revision="marshmallow" /> 
  <project path="external/proguard" name="BenzoRom/external_proguard" groups="pdk" remote="gh" revision="marshmallow" />
@@ -389,7 +389,7 @@
  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="mk" revision="mintkat" />
  <project path="packages/providers/ContactsProvider" name="BenzoRom/packages_providers_ContactsProvider" remote="gh" revision="marshmallow" />
  <project path="packages/providers/DownloadProvider" name="BenzoRom/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gh" revision="marshmallow" />
- <project path="packages/providers/MediaProvider" name="BenzoRom/packages_providers_MediaProvider" remote="gh" revision="marshmallow" /> 
+ <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="um" revision="master" /> 
  <project path="packages/providers/TelephonyProvider" name="BenzoRom/packages_providers_TelephonyProvider" remote="gh" revision="marshmallow" />
  <project path="packages/services/OmniJaws" name="BenzoRom/packages_services_OmniJaws" remote="gh" revision="marshmallow" />
  <project path="packages/services/Telephony" name="mintkat/packages_services_Telephony" remote="gh" revision="marshmallow" />
