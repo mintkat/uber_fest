@@ -425,7 +425,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/benzo" name="mintkat/vendor" remote="github" revision="benzo" />
-  <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="github" revision="mintkat" />
+  <project path="device/lge/mako" name="mintkat/device_lge_mako" remote="github" revision="benzo" />
 
 </manifest>
 
