@@ -28,7 +28,6 @@
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="BenzoRom/development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -288,7 +287,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/libhardware" name="mintkat/hardware_libhardware" groups="pdk" remote="github" revision="marshmallow" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/audio" name="TeamTwisted/hardware_qcom_audio" remote="github" revision="m6.0" />
   <project path="hardware/qcom/display" name="TeamTwisted/hardware_qcom_display" remote="github" revision="m6.0" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -297,26 +295,22 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" /> 
   <project path="libcore" name="BenzoRom/libcore" groups="pdk" remote="github" revision="marshmallow" />
   <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="github" revision="marshmallow" />
   <project path="ndk" name="BenzoRom/ndk" groups="generic_fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="BenzoRom/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Browser" name="BenzoRom/packages_apps_Browser" remote="github" revision="marshmallow" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="BenzoRom/packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="BenzoRom/packages_apps_Contacts" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/ContactsCommon" name="BenzoRom/packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="marshmallow" />
