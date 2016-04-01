@@ -21,7 +21,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="mintkat/art" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="bionic" name="BenzoRom/bionic" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="bionic" name="BenzoRom64/bionic" groups="pdk" remote="github" revision="marshmallow" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="BenzoRom/dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
@@ -254,7 +254,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="frameworks/native" name="BenzoRom64/frameworks_native" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -335,7 +335,7 @@
   <project path="packages/apps/OmniStyle" name="BenzoRom/packages_apps_OmniStyle" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/OmniSwitch" name="BenzoRom/packages_apps_OmniSwitch" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="BenzoRom/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/PackageInstaller" name="BenzoRom64/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="BenzoRom/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
