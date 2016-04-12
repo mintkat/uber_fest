@@ -16,7 +16,7 @@
   <remote  name="bb"
            fetch="https://bitbucket.org" />
 
-  <project path="build" name="mintkat/build" groups="pdk" remote="github" revision="benzo" >
+  <project path="build" name="mintkat/build" groups="pdk" remote="github" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
