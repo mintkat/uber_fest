@@ -252,7 +252,7 @@
   <project path="frameworks/ex" name="BenzoRom/frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" /> 
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
-  <<project path="frameworks/ml" name="BenzoRom/frameworks_ml" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="frameworks/ml" name="BenzoRom/frameworks_ml" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="BenzoRom/frameworks_native" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
