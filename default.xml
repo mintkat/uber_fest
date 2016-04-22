@@ -31,7 +31,7 @@
   <project path="development" name="BenzoRom/development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
-  <<project path="external/aac" name="BenzoRom/external_aac" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/aac" name="BenzoRom/external_aac" groups="pdk" remote="github" revision="marshmallow" />
   <project path="external/android-clat" name="BenzoRom/external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="BenzoRom/external_android-visualizer" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
