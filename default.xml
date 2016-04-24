@@ -28,11 +28,8 @@
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="BenzoRom/development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/moto/shamu" name="BenzoRom/device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="github" revision="marshmallow" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="BenzoRom/external_aac" groups="pdk" remote="github" revision="marshmallow" />
   <project path="external/android-clat" name="BenzoRom/external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
